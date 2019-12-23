@@ -1,5 +1,5 @@
-# test-api-reqres
-Automation Testing API dengan framework Jest - endpoint from https://reqres.in/
+# Automation Testing API with framework Jest
+> **endpoint from https://reqres.in/**
 
 Requirment to run repo :
 1. Install Node.js
