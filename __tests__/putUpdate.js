@@ -8,7 +8,6 @@ describe ('Put Update User', () => {
     test('Put Update', async () => {
         const response = await endpoint.putUpdate(2,dataRequest.dataUpdate);
         expect(response.status).toEqual(200);
-        console.log(response.body);
         expect(response.body).toMatchSchema(schema.schemaUpdate);
     });
 });
