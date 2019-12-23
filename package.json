@@ -1,0 +1,23 @@
+{
+  "name": "test-api-reqres",
+  "version": "1.0.0",
+  "description": "test-api-reqres",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "reqres"
+  ],
+  "author": "setyokun",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^24.9.0",
+    "jest-html-reporters": "^1.2.0",
+    "jest-json-schema": "^2.1.0"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "supertest": "^4.0.2"
+  }
+}
