@@ -8,5 +8,7 @@ How to use this test :
 - Step 1 : Clone this Repo in local
 - Step 2 : type `npm install` in terminal 
 - Step 3 : type `npm run test` to run api testing
+- Step 4 : type `npm run report` to run report api testing
+
 
 **Report API Testing** -> open file `jest_html_reporters.html`
