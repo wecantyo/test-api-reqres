@@ -4,7 +4,8 @@
   "description": "test-api-reqres",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "report": "google-chrome jest_html_reporters.html"
   },
   "keywords": [
     "reqres"
