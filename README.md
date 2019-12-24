@@ -43,5 +43,6 @@ tambahkan code ini :
   pada file jest.config.js untuk integrate report htmlnya 
 13. Persiapan sudah selesai - selanjutnya lanjut Coding !
 14. Ini perubahan untuk percobaan PULL REQUEST - PRIVATE REPO ! Yeah 
+15. Ini perubahan untuk percobaan PULL REQUEST - PRIVATE REPO ! Yeah - Percobaan KEDUA 
 
 cekidot : https://setyokun.github.io/post/api-test-with-jest/
