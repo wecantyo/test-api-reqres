@@ -10,9 +10,6 @@ How to use this test :
 - Step 3 : type `npm run test` to run api testing
 - Step 4 : type `npm run report` to run report api testing
 
-
-**Report API Testing** -> open file `jest_html_reporters.html`
-
 ========================================================================================
 ### Step by Step Memulai API Testing dengan Jest 
 
@@ -35,4 +32,13 @@ requset body : biasanya dalam bentuk json/xml)
 9. touch .env -> membuat file .env , file ini untuk menampung envirotment/baseUrl dari API. set baseUrl=https://reqres.in/ didalam folder .env
 10. npm install dotenv --save -> dotenv ini untuk me-loads file .env yang tadi kita buat
 11. npm install --save-dev jest-json-schema -> jest-json-schema ini untuk ngehandle expect dari schema validator
+12. npm install jest-html-reporter --save-dev -> untuk report hasil test apinya 
+tambahkan code ini : 
+   reporters: [
+     'default',
+     'jest-html-reporters'
+   ],
+   dan 
+   uncomment //coverageDirectory: "coverage",
+  pada file jest.config.js untuk integrate report htmlnya 
 12. Persiapan sudah selesai - selanjutnya lanjut Coding !
