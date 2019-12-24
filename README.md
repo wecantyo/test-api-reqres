@@ -42,7 +42,9 @@ tambahkan code ini :
    uncomment //coverageDirectory: "coverage",
   pada file jest.config.js untuk integrate report htmlnya 
 13. Persiapan sudah selesai - selanjutnya lanjut Coding !
-14. Ini perubahan untuk percobaan PULL REQUEST - PRIVATE REPO ! Yeah 
+14. Ini perubahan untuk percobaan PULL REQUEST - PRIVATE REPO ! Yeah
 15. Ini perubahan untuk percobaan PULL REQUEST - PRIVATE REPO ! Yeah - Percobaan KEDUA 
+16. Ini perubahan untuk percobaan PULL REQUEST - PUBLIC REPO ! Yeah - Percobaan KETIGA
+
 
 cekidot : https://setyokun.github.io/post/api-test-with-jest/
