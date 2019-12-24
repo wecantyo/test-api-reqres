@@ -45,6 +45,8 @@ tambahkan code ini :
 14. Ini perubahan untuk percobaan PULL REQUEST - PRIVATE REPO ! Yeah
 15. Ini perubahan untuk percobaan PULL REQUEST - PRIVATE REPO ! Yeah - Percobaan KEDUA 
 16. Ini perubahan untuk percobaan PULL REQUEST - PUBLIC REPO ! Yeah - Percobaan KETIGA
+17. Ini perubahan untuk percobaan PULL REQUEST - PUBLIC REPO ! Yeah - Percobaan KEEMPAT - rejected 
+18. Ini perubahan untuk percobaan PULL REQUEST - PUBLIC REPO ! Yeah - Percobaan KELIMA - revisi dari pak setyokun
 
 
 cekidot : https://setyokun.github.io/post/api-test-with-jest/
