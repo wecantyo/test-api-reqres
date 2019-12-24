@@ -42,3 +42,5 @@ tambahkan code ini :
    uncomment //coverageDirectory: "coverage",
   pada file jest.config.js untuk integrate report htmlnya 
 12. Persiapan sudah selesai - selanjutnya lanjut Coding !
+
+cekidot : https://setyokun.github.io/post/api-test-with-jest/
