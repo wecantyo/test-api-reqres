@@ -31,7 +31,7 @@ requset body : biasanya dalam bentuk json/xml)
 9. `touch .env` >> membuat file .env , file ini untuk menampung envirotment/baseUrl dari API. set baseUrl=https://reqres.in/ didalam folder .env
 10. `npm install dotenv --save` >> dotenv ini untuk me-loads file .env yang tadi kita buat
 11. `npm install --save-dev jest-json-schema` >> jest-json-schema ini untuk ngehandle expect dari schema validator
-12. `npm install jest-html-reporter --save-dev` >> untuk report hasil test apinya 
+12. `npm install jest-html-reporters --save-dev` >> untuk report hasil test apinya 
 tambahkan code ini : 
 ```js
    reporters: [
