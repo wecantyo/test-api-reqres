@@ -29,7 +29,7 @@ setelah itu , jest.config.js akan muncul
 (request line : post, get, put, etc
 request header : content-type, accept, etc
 requset body : biasanya dalam bentuk json/xml)
-9. `touch .env` >> membuat file .env , file ini untuk menampung envirotment/baseUrl dari API. set baseUrl=https://reqres.in/ didalam folder .env
+9. `touch .env` >> membuat file .env , file ini untuk menampung envirotment/baseUrl dari API. oh iya disini kita pake reqres.in untuk rest-apinya ya. kemudian set `baseUrl=https://reqres.in/` didalam folder .env
 10. `npm install dotenv --save` >> dotenv ini untuk me-loads file .env yang tadi kita buat
 11. `npm install --save-dev jest-json-schema` >> jest-json-schema ini untuk ngehandle expect dari schema validator
 12. `npm install jest-html-reporters --save-dev` >> untuk report hasil test apinya 
@@ -57,7 +57,7 @@ const getUser =  (id) => api.get(`/api/users/${id}`);
 const matchers  = require('jest-json-schema').matchers;
 expect.extend(matchers);
 
-//schema validator
+//schema validator >> schema validator ini bisa kalian generate dari web ini : https://jsonschema.net/
 const schemaUser = {
     "definitions": {},
     "type": "object",
