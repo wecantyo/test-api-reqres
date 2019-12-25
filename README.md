@@ -34,19 +34,14 @@ requset body : biasanya dalam bentuk json/xml)
 11. npm install --save-dev jest-json-schema -> jest-json-schema ini untuk ngehandle expect dari schema validator
 12. npm install jest-html-reporter --save-dev -> untuk report hasil test apinya 
 tambahkan code ini : 
+```js
    reporters: [
      'default',
      'jest-html-reporters'
    ],
-   dan 
-   uncomment //coverageDirectory: "coverage",
-  pada file jest.config.js untuk integrate report htmlnya 
+```   
+   dan uncomment ``` js //coverageDirectory: "coverage", ``` \
+  pada file jest.config.js untuk integrate report htmlnya \
 13. Persiapan sudah selesai - selanjutnya lanjut Coding !
-14. Ini perubahan untuk percobaan PULL REQUEST - PRIVATE REPO ! Yeah
-15. Ini perubahan untuk percobaan PULL REQUEST - PRIVATE REPO ! Yeah - Percobaan KEDUA 
-16. Ini perubahan untuk percobaan PULL REQUEST - PUBLIC REPO ! Yeah - Percobaan KETIGA
-17. Ini perubahan untuk percobaan PULL REQUEST - PUBLIC REPO ! Yeah - Percobaan KEEMPAT - rejected 
-18. Ini perubahan untuk percobaan PULL REQUEST - PUBLIC REPO ! Yeah - Percobaan KELIMA - revisi dari pak setyokun
-
 
 cekidot : https://setyokun.github.io/post/api-test-with-jest/
