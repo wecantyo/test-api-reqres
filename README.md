@@ -15,24 +15,24 @@ How to use this test :
 
 1. Install Node.js (sudo apt-get install nodejs - ubuntu)
 2. bikin folder -> masuk ke ide kesayanganmu (saya pake vscode)
-3. (ctrl + shift + ~ ) buat masuk ke terminal vscode
-4. npm init -> kemudian isi name, version, desc, etc -> setelah kelar ngisi biasanya akan muncul file package.json
-5. install test framework jest -> npm install jest --save-dev
-6. npm install -g npx -> npx itu buat runner package yang ada di node_modules
-7. npx jest --init -> nantinya akan muncul aggrement kek dibawah ini: \
-✔ Would you like to use Jest when running "test" script in "package.json"? … yes \
-✔ Choose the test environment that will be used for testing › node \
-✔ Do you want Jest to add coverage reports? … yes \
-✔ Automatically clear mock calls and instances between every test? … yes \
+3. `ctrl + shift + ~` buat masuk ke terminal vscode
+4. `npm init` >> kemudian isi name, version, desc, etc -> setelah kelar ngisi biasanya akan muncul file package.json
+5. `npm install jest --save-dev` >> install test framework jest
+6. `npm install -g npx` >> npx itu buat runner package yang ada di node_modules
+7. `npx jest --init` >> nantinya akan muncul aggrement kek dibawah ini: \
+`✔ Would you like to use Jest when running "test" script in "package.json"? … yes 
+✔ Choose the test environment that will be used for testing › node 
+✔ Do you want Jest to add coverage reports? … yes 
+✔ Automatically clear mock calls and instances between every test? … yes `\
 setelah itu , jest.config.js akan muncul
-8. npm install supertest --save -> supertest itu buat handle http request
+8. `npm install supertest --save` >> supertest itu buat handle http request
 (request line : post, get, put, etc
 request header : content-type, accept, etc
 requset body : biasanya dalam bentuk json/xml)
-9. touch .env -> membuat file .env , file ini untuk menampung envirotment/baseUrl dari API. set baseUrl=https://reqres.in/ didalam folder .env
-10. npm install dotenv --save -> dotenv ini untuk me-loads file .env yang tadi kita buat
-11. npm install --save-dev jest-json-schema -> jest-json-schema ini untuk ngehandle expect dari schema validator
-12. npm install jest-html-reporter --save-dev -> untuk report hasil test apinya 
+9. `touch .env` >> membuat file .env , file ini untuk menampung envirotment/baseUrl dari API. set baseUrl=https://reqres.in/ didalam folder .env
+10. `npm install dotenv --save` >> dotenv ini untuk me-loads file .env yang tadi kita buat
+11. `npm install --save-dev jest-json-schema` >> jest-json-schema ini untuk ngehandle expect dari schema validator
+12. `npm install jest-html-reporter --save-dev` >> untuk report hasil test apinya 
 tambahkan code ini : 
 ```js
    reporters: [
