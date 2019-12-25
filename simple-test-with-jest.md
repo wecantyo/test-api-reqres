@@ -1,7 +1,20 @@
-## Step by Step Memulai API Testing dengan Jest 
+# Automation Testing API with framework Jest
+> **endpoint from https://reqres.in/**
+
+Requirment to run repo :
+1. Install Node.js
+
+How to use this test :
+- Step 1 : Clone this Repo in local
+- Step 2 : type `npm install` in terminal 
+- Step 3 : type `npm run test` to run api testing
+- Step 4 : type `npm run report` to run report api testing
+
+========================================================================================
+### Step by Step Memulai API Testing dengan Jest 
 
 1. Install Node.js (sudo apt-get install nodejs - ubuntu)
-2. bikin folder -> masuk ke ide kesayanganmu (saya pake vscode)
+2. bikin folder >> masuk ke ide kesayanganmu (saya pake vscode)
 3. `ctrl + shift + ~` buat masuk ke terminal vscode
 4. `npm init` >> kemudian isi name, version, desc, etc -> setelah kelar ngisi biasanya akan muncul file package.json
 5. `npm install jest --save-dev` >> install test framework jest
@@ -16,7 +29,7 @@ setelah itu , jest.config.js akan muncul
 (request line : post, get, put, etc
 request header : content-type, accept, etc
 requset body : biasanya dalam bentuk json/xml)
-9. `touch .env` >> membuat file .env , file ini untuk menampung envirotment/baseUrl dari API. set baseUrl=https://reqres.in/ didalam folder .env
+9. `touch .env` >> membuat file .env , file ini untuk menampung envirotment/baseUrl dari API. oh iya disini kita pake reqres.in untuk rest-apinya ya. kemudian set `baseUrl=https://reqres.in/` didalam folder .env
 10. `npm install dotenv --save` >> dotenv ini untuk me-loads file .env yang tadi kita buat
 11. `npm install --save-dev jest-json-schema` >> jest-json-schema ini untuk ngehandle expect dari schema validator
 12. `npm install jest-html-reporters --save-dev` >> untuk report hasil test apinya 
@@ -44,7 +57,7 @@ const getUser =  (id) => api.get(`/api/users/${id}`);
 const matchers  = require('jest-json-schema').matchers;
 expect.extend(matchers);
 
-//schema validator
+//schema validator >> schema validator ini bisa kalian generate dari web ini : https://jsonschema.net/
 const schemaUser = {
     "definitions": {},
     "type": "object",
