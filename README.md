@@ -20,10 +20,10 @@ How to use this test :
 5. `npm install jest --save-dev` >> install test framework jest
 6. `npm install -g npx` >> npx itu buat runner package yang ada di node_modules
 7. `npx jest --init` >> nantinya akan muncul aggrement kek dibawah ini: \
-`✔ Would you like to use Jest when running "test" script in "package.json"? … yes 
-✔ Choose the test environment that will be used for testing › node 
-✔ Do you want Jest to add coverage reports? … yes 
-✔ Automatically clear mock calls and instances between every test? … yes `\
+`✔ Would you like to use Jest when running "test" script in "package.json"? … yes` \
+`✔ Choose the test environment that will be used for testing › node ` \
+`✔ Do you want Jest to add coverage reports? … yes ` \
+`✔ Automatically clear mock calls and instances between every test? … yes` \
 setelah itu , jest.config.js akan muncul
 8. `npm install supertest --save` >> supertest itu buat handle http request
 (request line : post, get, put, etc
@@ -40,7 +40,7 @@ tambahkan code ini :
      'jest-html-reporters'
    ],
 ```   
-   dan uncomment ``` js //coverageDirectory: "coverage", ``` \
+   dan uncomment ` //coverageDirectory: "coverage", `\
   pada file jest.config.js untuk integrate report htmlnya \
 13. Persiapan sudah selesai - selanjutnya lanjut Coding !
 
