@@ -157,5 +157,6 @@ describe('Get User Scenario', () => {
 16. run test >> `npm run test` 
 17. report test >> `npm run report`
 18. finish :)
+19. perubahan dari branch modify-readme
 
 cekidot : https://setyokun.github.io/post/api-test-with-jest/
